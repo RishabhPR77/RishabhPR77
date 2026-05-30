@@ -41,7 +41,7 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 
 ## 🔥 Featured Projects
 
-### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist) — Git History RAG System
+### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) — Git History RAG System
 > Query any Git repository in natural language
 
 - Hybrid retrieval: BGE dense embeddings + BM25 keyword reranking (60/40 weight)
