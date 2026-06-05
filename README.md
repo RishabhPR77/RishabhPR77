@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pipelines to XGBoost models deployed as FastAPI microservices, I focus on shipping things that actually work in production.
+I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipelines to XGBoost models deployed as FastAPI microservices, I focus on shipping things that actually work in production.
 
 - 🔭 Currently building with **LLMs, RAG, and predictive ML**
 - 🧠 Experienced in **LLaMA-3.3-70B, Pinecone, Groq API, Whisper, MediaPipe**
@@ -46,16 +46,16 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 ## 🔥 Featured Projects
 
 ### 🎙️ [AI Interview Platform](https://github.com/RishabhPR77/ai-interview-platform) 🥈 SSH '26 National Hackathon Runner-Up
-> Adaptive AI interviewer with real-time multimodal behavioural analysis · *Private repo — active development*
+> Adaptive AI interviewer with real-time multimodal behavioural analysis · *Private repo - active development*
 
-- Adaptive question engine powered by LLaMA-3.3-70B — selects follow-ups or injects curveballs based on answer quality and topic coverage gaps
+- Adaptive question engine powered by LLaMA-3.3-70B - selects follow-ups or injects curveballs based on answer quality and topic coverage gaps
 - Real-time multimodal pipeline fusing **Whisper** audio signals (WPM, filler words, confidence scoring) with **MediaPipe** video signals (eye contact %, posture, nervousness indicators)
 - Full **React/TypeScript** frontend with camera check, session resume, performance comparison, and PDF report export
 - FastAPI scoring engine with customisable weighted rubrics and hire/no-hire recommendation
 
 ---
 
-### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) — Git History RAG System
+### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) - Git History RAG System
 > Query any Git repository in natural language
 
 - Hybrid retrieval: BGE dense embeddings + BM25 keyword reranking (60/40 weight)
@@ -75,7 +75,7 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 
 ---
 
-### 🎬 [CinemaIQ](https://github.com/RishabhPR77/movie-success-predictor) — Box Office Intelligence Platform
+### 🎬 [CinemaIQ](https://github.com/RishabhPR77/movie-success-predictor) - Box Office Intelligence Platform
 > Predict box office revenue with AI commentary
 
 - 30+ domain-specific features including custom talent power indices
@@ -95,10 +95,10 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 
 ## 🏆 Achievements
 
-- 🥈 **1st Runner-Up** — SSH '26 National Hackathon (Feb 2026)
-- 🏅 **Top Performer, Web Dev Track** — Hacksagon @ ABV-IIITM Gwalior (Apr 2026)
-- 🎯 **Finalist** — ABV-IIITM Hackatron powered by GitHub (Oct 2025)
-- 📜 **Mathematical Foundations of ML** — NPTEL, IIT Madras | Score: 73/100
+- 🥈 **1st Runner-Up** - SSH '26 National Hackathon (Feb 2026)
+- 🏅 **Top Performer, Web Dev Track** - Hacksagon @ ABV-IIITM Gwalior (Apr 2026)
+- 🎯 **Finalist** - ABV-IIITM Hackatron powered by GitHub (Oct 2025)
+- 📜 **Mathematical Foundations of ML** - NPTEL, IIT Madras | Score: 73/100
 
 ---
 
