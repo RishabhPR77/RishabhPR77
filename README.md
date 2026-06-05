@@ -45,7 +45,7 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 
 ## 🔥 Featured Projects
 
-### 🎙️ AI Interview Platform &nbsp;·&nbsp; 🥈 SSH '26 National Hackathon Runner-Up
+### 🎙️ [AI Interview Platform](https://github.com/RishabhPR77/ai-interview-platform) 🥈 SSH '26 National Hackathon Runner-Up
 > Adaptive AI interviewer with real-time multimodal behavioural analysis · *Private repo — active development*
 
 - Adaptive question engine powered by LLaMA-3.3-70B — selects follow-ups or injects curveballs based on answer quality and topic coverage gaps
