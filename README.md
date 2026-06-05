@@ -9,7 +9,7 @@
 I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pipelines to XGBoost models deployed as FastAPI microservices, I focus on shipping things that actually work in production.
 
 - 🔭 Currently building with **LLMs, RAG, and predictive ML**
-- 🧠 Experienced in **LLaMA-3.3-70B, Pinecone, LangChain, Groq API**
+- 🧠 Experienced in **LLaMA-3.3-70B, Pinecone, Groq API, Whisper, MediaPipe**
 - ⚡ 1st Runner-Up @ SSH '26 National Hackathon
 - 🌐 Portfolio: [rishabhpatidar.vercel.app](https://rishabhpatidar.vercel.app)
 
@@ -20,6 +20,7 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 
 **AI / ML**
@@ -27,10 +28,13 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 ![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat)
 ![Pinecone](https://img.shields.io/badge/Pinecone-00B388?style=flat)
+![Whisper](https://img.shields.io/badge/Whisper_ASR-412991?style=flat&logo=openai&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat)
 
 **Deployment**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 **Databases**
@@ -40,6 +44,16 @@ I build end-to-end ML and AI systems — not just notebooks. From hybrid RAG pip
 ---
 
 ## 🔥 Featured Projects
+
+### 🎙️ AI Interview Platform &nbsp;·&nbsp; 🥈 SSH '26 National Hackathon Runner-Up
+> Adaptive AI interviewer with real-time multimodal behavioural analysis · *Private repo — active development*
+
+- Adaptive question engine powered by LLaMA-3.3-70B — selects follow-ups or injects curveballs based on answer quality and topic coverage gaps
+- Real-time multimodal pipeline fusing **Whisper** audio signals (WPM, filler words, confidence scoring) with **MediaPipe** video signals (eye contact %, posture, nervousness indicators)
+- Full **React/TypeScript** frontend with camera check, session resume, performance comparison, and PDF report export
+- FastAPI scoring engine with customisable weighted rubrics and hire/no-hire recommendation
+
+---
 
 ### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) — Git History RAG System
 > Query any Git repository in natural language
