@@ -45,7 +45,7 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ## 🔥 Featured Projects
 
-### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) - Git History RAG System
+### [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) - Git History RAG System
 > Query any Git repository in natural language
 
 - Hybrid retrieval: BGE dense embeddings + BM25 keyword reranking (60/40 weight)
@@ -55,7 +55,7 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ---
 
-### 📉 [Customer Churn Prediction](https://github.com/RishabhPR77/customer-churn)
+### [Customer Churn Prediction](https://github.com/RishabhPR77/customer-churn)
 > End-to-end churn intelligence on 2.5M+ transactions
 
 - Modular SQL-to-Pandas ETL pipeline engineering 22 RFM and behavioural features
@@ -65,7 +65,7 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ---
 
-### 🎬 [CinemaIQ](https://github.com/RishabhPR77/movie-success-predictor) - Box Office Intelligence Platform
+### [CinemaIQ](https://github.com/RishabhPR77/movie-success-predictor) - Box Office Intelligence Platform
 > Predict box office revenue with AI commentary
 
 - 30+ domain-specific features including custom talent power indices
@@ -74,7 +74,7 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ---
 
-### 🎯 [Video Target Identification System](https://github.com/RishabhPR77/video-target-id)
+### [Video Target Identification System](https://github.com/RishabhPR77/video-target-id)
 > Biometric re-identification across multi-camera CCTV feeds
 
 - Fuses InsightFace 512-d face embeddings + MediaPipe 12-d pose descriptors
