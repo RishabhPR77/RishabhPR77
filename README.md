@@ -45,16 +45,6 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ## 🔥 Featured Projects
 
-### 🎙️ [AI Interview Platform](https://github.com/RishabhPR77/ai-interview-platform) 🥈 SSH '26 National Hackathon Runner-Up
-> Adaptive AI interviewer with real-time multimodal behavioural analysis · *Private repo - active development*
-
-- Adaptive question engine powered by LLaMA-3.3-70B - selects follow-ups or injects curveballs based on answer quality and topic coverage gaps
-- Real-time multimodal pipeline fusing **Whisper** audio signals (WPM, filler words, confidence scoring) with **MediaPipe** video signals (eye contact %, posture, nervousness indicators)
-- Full **React/TypeScript** frontend with camera check, session resume, performance comparison, and PDF report export
-- FastAPI scoring engine with customisable weighted rubrics and hire/no-hire recommendation
-
----
-
 ### 🗿 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) - Git History RAG System
 > Query any Git repository in natural language
 
