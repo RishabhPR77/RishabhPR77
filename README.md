@@ -83,6 +83,14 @@ I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipel
 
 ---
 
+###  [Event Footfall Prediction & Sponsorship Engine](https://github.com/RishabhPR77/eventsight)
+> Research Project · LLM-Integrated ML Pipeline
+- Conducted end-to-end EDA on event marketing datasets (50+ features), identifying key footfall drivers via correlation analysis and domain-informed feature selection — reducing model noise by 30%.
+- Built a two-stage XGBoost pipeline (R² = 0.96) with a Dynamic Physical Clamping algorithm enforcing venue-capacity constraints at inference, achieving zero physically invalid predictions.
+-Integrated LLaMA-3.3-70B via Groq API for semantic brand-event synergy scoring, generating structured JSON negotiation reports deployed as a stateless FastAPI microservice.
+
+---
+
 ## 🏆 Achievements
 
 - 🥈 **1st Runner-Up** - SSH '26 National Hackathon (Feb 2026)
