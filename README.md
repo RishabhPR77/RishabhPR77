@@ -9,7 +9,7 @@
 I build end-to-end ML and AI systems - not just notebooks. From hybrid RAG pipelines to XGBoost models deployed as FastAPI microservices, I focus on shipping things that actually work in production.
 
 - 🔭 Currently building with **LLMs, RAG, and predictive ML**
-- 🧠 Experienced in **LLaMA-3.3-70B, Pinecone, Groq API, Whisper, MediaPipe**
+- 🧠 Experienced in **LLM models, Pinecone, Whisper, MediaPipe**
 - ⚡ 1st Runner-Up @ SSH '26 National Hackathon
 - 🌐 Portfolio: [rishabhpatidar.vercel.app](https://rishabhpatidar.vercel.app)
 
