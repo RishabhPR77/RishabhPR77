@@ -1,6 +1,6 @@
 # Rishabh Patidar
 
-### AI/ML Engineer building production ML systems — not just notebooks
+### AI/ML Engineer building production ML systems 
 
 I design and ship end-to-end machine learning systems: hybrid RAG pipelines, gradient-boosted models in production, and multi-modal biometric systems deployed as real APIs and dashboards. My focus is systems that hold up under real data, real latency, and real constraints.
 
