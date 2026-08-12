@@ -1,11 +1,12 @@
 # Rishabh Patidar
 
-### AI/ML Engineer building production ML systems 
+### AI Engineer specializing in Retrieval-Augmented Generation systems
 
-I design and ship end-to-end machine learning systems: hybrid RAG pipelines, gradient-boosted models in production, and multi-modal biometric systems deployed as real APIs and dashboards. My focus is systems that hold up under real data, real latency, and real constraints.
+I build RAG systems end-to-end — from retrieval strategy and embedding design to production deployment — and have implemented a wide range of RAG architectures across different retrieval, indexing, and reranking approaches. My broader focus spans LLM-integrated pipelines and predictive ML systems, and I'm currently exploring agentic AI, with a particular interest in memory layers for autonomous agents.
 
-📍 B.Tech IT, MITS Gwalior (Class of 2027) · 🥈 1st Runner-Up, SSH '26 National Hackathon
-🌐 [Portfolio](https://rishabhpatidar.vercel.app) · [LinkedIn](https://linkedin.com/in/rishabh-ptdr) · [Email](mailto:rishabhpatidar400@gmail.com)
+**B.Tech IT, MITS Gwalior** (Class of 2027) &nbsp;|&nbsp; **1st Runner-Up**, SSH '26 National Hackathon
+
+[Portfolio](https://rishabhpatidar.vercel.app) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/rishabh-ptdr) &nbsp;|&nbsp; [Email](mailto:rishabhpatidar400@gmail.com)
 
 ---
 
@@ -24,7 +25,7 @@ I design and ship end-to-end machine learning systems: hybrid RAG pipelines, gra
 ## Featured Projects
 
 ### 🔍 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) — Natural-Language Git History Search
-A RAG system that lets you query any Git repository conversationally.
+A retrieval-augmented generation system for natural-language querying of Git repository history.
 - Hybrid retrieval combining BGE dense embeddings with BM25 keyword reranking (60/40 weighting)
 - Pinecone vector store with per-user namespace isolation and Redis TTL-based cleanup
 - LLaMA-3.3-70B (via Groq) for commit summarization and intent classification
@@ -75,7 +76,7 @@ Predicts event footfall and scores brand-sponsorship fit in one pipeline.
 
 ---
 
-## Let's Connect
+## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishabh-ptdr)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://rishabhpatidar.vercel.app)
