@@ -1,77 +1,88 @@
 # Rishabh Patidar
 
-### AI Engineer specializing in Retrieval-Augmented Generation systems
+**Software engineer building backend services, integrations and AI systems that hold up in production.**
 
-I build RAG systems end-to-end, from retrieval strategy and embedding design to production deployment, and have implemented a wide range of RAG architectures across different retrieval, indexing, and reranking approaches. I'm currently exploring agentic AI, with a particular interest in memory layers for autonomous agents. Alongside this, I continue to work across the broader ML and data science stack, including predictive modeling, feature engineering, and production deployment of models via FastAPI microservices.
+SDE Intern at MSG91 · Final-year B.Tech IT at MITS Gwalior · Open to SDE and AI engineering roles
 
-**B.Tech IT, MITS Gwalior** (Class of 2027) &nbsp;|&nbsp; **1st Runner-Up**, SSH '26 National Hackathon
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f766e?style=flat-square&logo=googlechrome&logoColor=white)](https://rishabh.isonewho.codes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishabh-ptdr)
+[![Resume](https://img.shields.io/badge/Resume-1c1917?style=flat-square&logo=readthedocs&logoColor=white)](https://rishabh.isonewho.codes/Rishabh_Patidar_Resume.pdf)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rishabhpatidar400@gmail.com)
 
-[Portfolio](https://rishabhpatidar.vercel.app) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/rishabh-ptdr) &nbsp;|&nbsp; [Email](mailto:rishabhpatidar400@gmail.com)
+## What I'm working on
 
----
+- **At MSG91:** co-building M91, a platform that escalates critical alerts through push, SMS and voice calls until a person acknowledges them. I also build viaSocket plugins, including the one that lets events from 1,500+ apps trigger M91 alerts.
+- **Outside work:** running two AI products of my own in production, both below.
+- **Exploring:** agentic AI and memory layers for autonomous agents.
 
-## LLM, RAG & Agentic AI
+## Featured projects
 
-### 🔍 [Code Archaeologist](https://github.com/RishabhPR77/code-archaeologist-demo) — Natural-Language Git History Search
-A retrieval-augmented generation system for natural-language querying of Git repository history.
-- Hybrid retrieval combining dense vector embeddings with keyword-based reranking (60/40 weighting)
-- Vector database storage with per-user namespace isolation and automated cache cleanup
-- Large Language Model (LLM) integration for commit summarization and intent classification
-- Deployed on the cloud with IP rate-limiting and admin access control
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://code-archaeologist-a9ms.onrender.com/"><img src="assets/code-archaeologist.webp" alt="Code Archaeologist landing page" /></a>
 
-Additional RAG architectures and agentic AI work, including memory-layer design for autonomous agents, has been built as part of internal organizational projects and isn't publicly available.
+### Code Archaeologist
 
----
+Ask why any code was written and get an answer cited to the repo's own commits, pull requests and code reviews.
 
-## Machine Learning & Data Science
+- Hybrid retrieval: Pinecone dense search plus BM25 reranking
+- Bring your own key across 5 LLM providers, with live model lists
+- GitHub App and Google sign-in, encrypted keys, 70+ pytest tests
 
-### 📉 [Customer Churn Prediction](https://github.com/RishabhPR77/customer-churn) — Churn Intelligence at Scale
-End-to-end churn pipeline processing 2.5M+ transactions to flag revenue at risk.
-- Modular ETL pipeline engineering 22 behavioral and recency-based features
-- Ensemble classification model (**ROC-AUC = 0.8793**) with oversampling techniques for class imbalance
-- Model explainability analysis pinpointing recency as the dominant churn driver
-- Quantified **$233,917** in revenue-at-risk across 392 high-risk households
+`Python` `FastAPI` `PostgreSQL` `Pinecone` `React` `Docker`
 
-### 🎬 [CinemaIQ](https://github.com/RishabhPR77/movie-success-predictor) — Box Office Intelligence Platform
-Predicts box office revenue and generates AI-driven scenario commentary.
-- 30+ domain-specific features, including custom talent power indices
-- Gradient boosting model selected over multiple benchmarked algorithms for lowest prediction error
-- Large Language Model (LLM) integration powering scenario simulation and an ROI analytics dashboard
+[Live demo](https://code-archaeologist-a9ms.onrender.com/) · [Source code](https://github.com/RishabhPR77/code-archaeology-rag)
 
-### 📊 [Event Footfall Prediction & Sponsorship Engine](https://github.com/RishabhPR77/eventsight) — LLM-Integrated ML Pipeline
-Predicts event footfall and scores brand-sponsorship fit in one pipeline.
-- EDA across 50+ features to identify footfall drivers, cutting model noise by 30%
-- Two-stage gradient boosting pipeline (R² = 0.96) with a custom constraint-enforcement algorithm for venue-capacity limits, achieving zero physically invalid predictions
-- Large Language Model (LLM) integration for semantic brand-event synergy scoring, output as structured data via a stateless API microservice
+<sub>Free hosting, so the first visit can take about a minute to wake up.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://tejaskrit-rishabh.koreacentral.cloudapp.azure.com/"><img src="assets/tejaskrit.webp" alt="Tejaskrit landing page" /></a>
 
-### 🎥 [Video Target Identification System](https://github.com/RishabhPR77/video-target-id) — Multi-Camera Biometric Re-ID
-Re-identifies individuals across CCTV feeds using fused biometric signals.
-- Fuses facial recognition embeddings with pose-estimation descriptors
-- Weighted similarity scoring (face: 0.7, pose: 0.3) for robust re-identification
-- Forensic dashboard with automated evidence export
+### Tejaskrit
 
----
+AI mock interviews from a real job description, scored on what you said, how you said it and how you came across.
 
-## Tech Stack
+- Took our SSH '26 1st Runner-Up team project to production on Azure
+- Cut the wait between questions from minutes to 3–4 s with a fast path and a restart-safe background queue
+- Tuned peak memory to about 550 MB to run on a 1 GB VM
 
-**Languages** `Python` `SQL` `TypeScript` `Java`
-**ML / AI** `Scikit-learn` `XGBoost` `LangChain` `Pinecone` `Whisper` `MediaPipe`
-**Deployment** `FastAPI` `Streamlit` `React` `Docker`
-**Data** `MongoDB` `Redis`
+`Python` `FastAPI` `PostgreSQL` `MediaPipe` `React` `Docker`
 
----
+[Live demo](https://tejaskrit-rishabh.koreacentral.cloudapp.azure.com/) · [Source code](https://github.com/RishabhPR77/ai-interview)
+</td>
+</tr>
+</table>
+
+## More projects
+
+| Project | What it does | Links |
+| --- | --- | --- |
+| **Customer Segmentation & Churn** | Churn model on 2.5M+ transactions (ROC-AUC 0.879) that puts a $233,917 figure on revenue at risk | [Demo](https://customer-churn-dunhumby.streamlit.app/) · [Code](https://github.com/RishabhPR77/customer-churn) |
+| **SponsorWise** | Event sponsorship platform with XGBoost footfall prediction (R² = 0.96) and real-time negotiation rooms | [Code](https://github.com/RishabhPR77/eventsight) |
+| **CinemaIQ** | Box-office forecasting from talent power indices, with LLM commentary | [Demo](https://movie-success-predictor-xu2vnp53g3jg8a3pmrr3k3.streamlit.app/) · [Code](https://github.com/RishabhPR77/movie-success-predictor) |
+| **Video Target ID** | Finds the same person across CCTV feeds by fusing face and pose embeddings | [Demo](https://video-target-id-lnjmjrh3ap8jafch7wrbme.streamlit.app/) · [Code](https://github.com/RishabhPR77/video-target-id) |
+
+## Experience
+
+| Role | Company | When | Highlight |
+| --- | --- | --- | --- |
+| **SDE Intern** | MSG91 | Oct 2026 – Present | Shipping alerting features to production on M91 |
+| **AI Engineer Intern** | CogKnowEdge Solutions | Aug – Sep 2026 | Built 7+ RAG systems and deployed apps to GCP Cloud Run |
+| **Undergraduate Research Assistant** | MITS Gwalior | Jan – May 2026 | Two-stage XGBoost pipeline with R² = 0.96 and 85% lower RMSE than baseline |
+
+## Tech stack
+
+[![Tech stack](https://skillicons.dev/icons?i=py,ts,java,cpp,fastapi,react,postgres,mongodb,sqlite,docker,azure,gcp,git,github&perline=14)](https://skillicons.dev)
+
+**AI and LLMs:** LangChain, LangGraph, RAG, Pinecone, Qdrant, Neo4j, OpenAI / Claude / Gemini APIs
+
+**ML and data:** Scikit-learn, XGBoost, SHAP, Pandas, NumPy, OpenCV, MediaPipe, librosa, Whisper
 
 ## Achievements
 
-- 🥈 1st Runner-Up, SSH '26 National Hackathon (Feb 2026)
-- 🏅 Top Performer, Web Dev Track, Hacksagon @ ABV-IIITM Gwalior (Apr 2026)
-- 🎯 Finalist, ABV-IIITM Hackatron powered by GitHub (Oct 2025)
-- 📜 Mathematical Foundations of ML, NPTEL, IIT Madras (73/100)
-
----
-
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishabh-ptdr)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://rishabhpatidar.vercel.app)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rishabhpatidar400@gmail.com)
+- 🏆 **1st Place** (team), IKIGAI '26 National Hackathon, AITR Indore
+- 🥈 **1st Runner-Up** (team Tejaskrit), SSH '26 National Hackathon
+- 🏅 **Top Performer**, Web Development Track, Hacksagon, ABV-IIITM Gwalior
+- 🎯 **Finalist**, ABV-IIITM Hackatron powered by GitHub
+- 📜 **NPTEL Certification**, Mathematical Foundations of ML, IIT Madras (73/100)
