@@ -2,7 +2,7 @@
 
 **I build software that has to survive real users.**
 
-Right now that's M91 at MSG91, an alerting platform with one job: keep escalating through push, SMS and voice calls until a human answers. Outside work I run two AI products of my own, on servers small enough to keep me honest.
+Right now that's M91 at MSG91 (Walkover), an alerting platform with one job: keep escalating through push, SMS and voice calls until a human answers. Outside work I run two AI products of my own, on servers small enough to keep me honest.
 
 Final-year IT student at MITS Gwalior (CGPA 8.12, graduating May 2027). Open to SDE and AI engineering roles.
 
@@ -68,7 +68,7 @@ Paste a job description and your resume, then answer on camera. It follows up wh
 ## Experience
 
 ```text
-* Oct 2026  (HEAD) SDE Intern at MSG91: shipping alerting features on M91
+* Oct 2026  (HEAD) SDE Intern at MSG91 (Walkover): shipping M91 alerting
 * Aug 2026  AI Engineer Intern at CogKnowEdge: built 7+ RAG systems
 * Jan 2026  Research Assistant at MITS: XGBoost pipeline with R² = 0.96
 ```
