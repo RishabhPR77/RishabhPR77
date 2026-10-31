@@ -1,21 +1,17 @@
 # Rishabh Patidar
 
-**Software engineer building backend services, integrations and AI systems that hold up in production.**
+**I build software that has to survive real users.**
 
-SDE Intern at MSG91 · Final-year B.Tech IT at MITS Gwalior · Open to SDE and AI engineering roles
+Right now that's M91 at MSG91, an alerting platform with one job: keep escalating through push, SMS and voice calls until a human answers. Outside work I run two AI products of my own, on servers small enough to keep me honest.
+
+Final-year IT student at MITS Gwalior (CGPA 8.12, graduating May 2027). Open to SDE and AI engineering roles.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0f766e?style=flat-square&logo=googlechrome&logoColor=white)](https://rishabh.isonewho.codes)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishabh-ptdr)
 [![Resume](https://img.shields.io/badge/Resume-1c1917?style=flat-square&logo=readthedocs&logoColor=white)](https://rishabh.isonewho.codes/Rishabh_Patidar_Resume.pdf)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rishabhpatidar400@gmail.com)
 
-## What I'm working on
-
-- **At MSG91:** co-building M91, a platform that escalates critical alerts through push, SMS and voice calls until a person acknowledges them. I also build viaSocket plugins, including the one that lets events from 1,500+ apps trigger M91 alerts.
-- **Outside work:** running two AI products of my own in production, both below.
-- **Exploring:** agentic AI and memory layers for autonomous agents.
-
-## Featured projects
+## Things I've shipped
 
 <table>
 <tr>
@@ -24,11 +20,13 @@ SDE Intern at MSG91 · Final-year B.Tech IT at MITS Gwalior · Open to SDE and A
 
 ### Code Archaeologist
 
-Ask why any code was written and get an answer cited to the repo's own commits, pull requests and code reviews.
+**`git blame` tells you who. This tells you why.**
 
-- Hybrid retrieval: Pinecone dense search plus BM25 reranking
-- Bring your own key across 5 LLM providers, with live model lists
-- GitHub App and Google sign-in, encrypted keys, 70+ pytest tests
+Point it at a GitHub repo and ask why any code was written. Answers come only from the repo's commits, pull requests and code reviews, and cite every source.
+
+- Hybrid search across Pinecone and BM25 finds the evidence
+- Bring your own key for 5 LLM providers; new models appear the day they launch
+- Fits in 512 MB by moving embeddings to a hosted model
 
 `Python` `FastAPI` `PostgreSQL` `Pinecone` `React` `Docker`
 
@@ -41,11 +39,13 @@ Ask why any code was written and get an answer cited to the repo's own commits, 
 
 ### Tejaskrit
 
-AI mock interviews from a real job description, scored on what you said, how you said it and how you came across.
+**A mock interview that pushes back.**
 
-- Took our SSH '26 1st Runner-Up team project to production on Azure
-- Cut the wait between questions from minutes to 3–4 s with a fast path and a restart-safe background queue
-- Tuned peak memory to about 550 MB to run on a 1 GB VM
+Paste a job description and your resume, then answer on camera. It follows up when you're vague and scores what you said, how you said it and how you came across.
+
+- Began as our team's SSH '26 entry (1st Runner-Up); I took it to production on Azure
+- The wait between questions went from minutes to 3–4 s after splitting the work into a fast path and a background queue
+- Runs on a 1 GB VM, with peak memory around 550 MB
 
 `Python` `FastAPI` `PostgreSQL` `MediaPipe` `React` `Docker`
 
@@ -54,24 +54,26 @@ AI mock interviews from a real job description, scored on what you said, how you
 </tr>
 </table>
 
-## More projects
+## Smaller builds
 
-| Project | What it does | Links |
+| Project | The idea | Links |
 | --- | --- | --- |
-| **Customer Segmentation & Churn** | Churn model on 2.5M+ transactions (ROC-AUC 0.879) that puts a $233,917 figure on revenue at risk | [Demo](https://customer-churn-dunhumby.streamlit.app/) · [Code](https://github.com/RishabhPR77/customer-churn) |
-| **SponsorWise** | Event sponsorship platform with XGBoost footfall prediction (R² = 0.96) and real-time negotiation rooms | [Code](https://github.com/RishabhPR77/eventsight) |
-| **CinemaIQ** | Box-office forecasting from talent power indices, with LLM commentary | [Demo](https://movie-success-predictor-xu2vnp53g3jg8a3pmrr3k3.streamlit.app/) · [Code](https://github.com/RishabhPR77/movie-success-predictor) |
-| **Video Target ID** | Finds the same person across CCTV feeds by fusing face and pose embeddings | [Demo](https://video-target-id-lnjmjrh3ap8jafch7wrbme.streamlit.app/) · [Code](https://github.com/RishabhPR77/video-target-id) |
+| **Churn Prediction** | Spots which shoppers are about to leave and what that costs: $233,917 at risk, found in 2.5M+ transactions | [Demo](https://customer-churn-dunhumby.streamlit.app/) · [Code](https://github.com/RishabhPR77/customer-churn) |
+| **SponsorWise** | Predicts event footfall (R² = 0.96) and gives brands and organisers a live room to negotiate in | [Code](https://github.com/RishabhPR77/eventsight) |
+| **CinemaIQ** | Forecasts a film's box office from the pull of its actors, directors and composers | [Demo](https://movie-success-predictor-xu2vnp53g3jg8a3pmrr3k3.streamlit.app/) · [Code](https://github.com/RishabhPR77/movie-success-predictor) |
+| **Video Target ID** | Follows one person across CCTV feeds by matching face and pose | [Demo](https://video-target-id-lnjmjrh3ap8jafch7wrbme.streamlit.app/) · [Code](https://github.com/RishabhPR77/video-target-id) |
+
+<sub>The Streamlit demos sleep when idle. Click the wake-up button and give them a moment.</sub>
 
 ## Experience
 
-| Role | Company | When | Highlight |
-| --- | --- | --- | --- |
-| **SDE Intern** | MSG91 | Oct 2026 – Present | Shipping alerting features to production on M91 |
-| **AI Engineer Intern** | CogKnowEdge Solutions | Aug – Sep 2026 | Built 7+ RAG systems and deployed apps to GCP Cloud Run |
-| **Undergraduate Research Assistant** | MITS Gwalior | Jan – May 2026 | Two-stage XGBoost pipeline with R² = 0.96 and 85% lower RMSE than baseline |
+```text
+* Oct 2026  (HEAD) SDE Intern at MSG91: shipping alerting features on M91
+* Aug 2026  AI Engineer Intern at CogKnowEdge: built 7+ RAG systems
+* Jan 2026  Research Assistant at MITS: XGBoost pipeline with R² = 0.96
+```
 
-## Tech stack
+## Toolbox
 
 [![Tech stack](https://skillicons.dev/icons?i=py,ts,java,cpp,fastapi,react,postgres,mongodb,sqlite,docker,azure,gcp,git,github&perline=14)](https://skillicons.dev)
 
@@ -79,10 +81,13 @@ AI mock interviews from a real job description, scored on what you said, how you
 
 **ML and data:** Scikit-learn, XGBoost, SHAP, Pandas, NumPy, OpenCV, MediaPipe, librosa, Whisper
 
-## Achievements
+## Wins
 
 - 🏆 **1st Place** (team), IKIGAI '26 National Hackathon, AITR Indore
 - 🥈 **1st Runner-Up** (team Tejaskrit), SSH '26 National Hackathon
 - 🏅 **Top Performer**, Web Development Track, Hacksagon, ABV-IIITM Gwalior
-- 🎯 **Finalist**, ABV-IIITM Hackatron powered by GitHub
 - 📜 **NPTEL Certification**, Mathematical Foundations of ML, IIT Madras (73/100)
+
+---
+
+Hiring, building something interesting, or curious about a commit? [Email me](mailto:rishabhpatidar400@gmail.com).
