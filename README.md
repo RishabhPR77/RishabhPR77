@@ -52,14 +52,50 @@ Paste a job description and your resume, then answer on camera. It follows up wh
 [Live demo](https://tejaskrit-rishabh.koreacentral.cloudapp.azure.com/) · [Source code](https://github.com/RishabhPR77/ai-interview)
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://sponsorwise.vercel.app/"><img src="assets/sponsorwise.webp" alt="SponsorWise landing page" /></a>
+
+### SponsorWise
+
+**Matchmaking for events and sponsors, with the odds shown up front.**
+
+Organizers list events and brands find them. Both see predicted turnout and deal odds, then negotiate, chat and close the deal in one place.
+
+- Two-stage XGBoost: attendance (R² 0.922 on held-out events), then whether the sponsor says yes (81% accuracy)
+- An LLM scores brand fit and drafts the pitch, with fallbacks when it's unavailable
+- Built with Sujal Hammad; I took it to production on Vercel, Render and MongoDB Atlas
+
+`React` `Node.js` `MongoDB` `Socket.IO` `FastAPI` `XGBoost`
+
+[Live demo](https://sponsorwise.vercel.app/) · [Source code](https://github.com/RishabhPR77/eventsight)
+
+<sub>The API sleeps on free hosting, so the first prediction can take about a minute.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://customer-churn-dunhumby.streamlit.app/"><img src="assets/churn.webp" alt="Customer churn dashboard" /></a>
+
+### Churn Prediction
+
+**Who's about to leave, and what it costs.**
+
+Finds the households about to stop shopping across 2.5M+ transactions and puts a dollar figure on it.
+
+- 22 RFM features and four KMeans customer segments
+- Random Forest at ROC-AUC 0.879, explained with SHAP
+- $233,917 of revenue at risk, shown in a Streamlit dashboard
+
+`Python` `Scikit-learn` `XGBoost` `SHAP` `Pandas` `Streamlit`
+
+[Live demo](https://customer-churn-dunhumby.streamlit.app/) · [Source code](https://github.com/RishabhPR77/customer-churn)
+</td>
+</tr>
 </table>
 
 ## Smaller builds
 
 | Project | The idea | Links |
 | --- | --- | --- |
-| **Churn Prediction** | Spots which shoppers are about to leave and what that costs: $233,917 at risk, found in 2.5M+ transactions | [Demo](https://customer-churn-dunhumby.streamlit.app/) · [Code](https://github.com/RishabhPR77/customer-churn) |
-| **SponsorWise** | Predicts event footfall (R² = 0.96) and gives brands and organisers a live room to negotiate in | [Code](https://github.com/RishabhPR77/eventsight) |
 | **CinemaIQ** | Forecasts a film's box office from the pull of its actors, directors and composers | [Demo](https://movie-success-predictor-xu2vnp53g3jg8a3pmrr3k3.streamlit.app/) · [Code](https://github.com/RishabhPR77/movie-success-predictor) |
 | **Video Target ID** | Follows one person across CCTV feeds by matching face and pose | [Demo](https://video-target-id-lnjmjrh3ap8jafch7wrbme.streamlit.app/) · [Code](https://github.com/RishabhPR77/video-target-id) |
 
