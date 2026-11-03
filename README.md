@@ -44,7 +44,7 @@ Point it at a GitHub repo and ask why any code was written. Answers come only fr
 Paste a job description and your resume, then answer on camera. It follows up when you're vague and scores what you said, how you said it and how you came across.
 
 - Began as our team's SSH '26 entry (1st Runner-Up); I took it to production on Azure
-- The wait between questions went from minutes to 3–4 s after splitting the work into a fast path and a background queue
+- The wait between questions went from minutes to 3 or 4 seconds after splitting the work into a fast path and a background queue
 - Runs on a 1 GB VM, with peak memory around 550 MB
 
 `Python` `FastAPI` `PostgreSQL` `MediaPipe` `React` `Docker`
@@ -106,16 +106,16 @@ Finds the households about to stop shopping across 2.5M+ transactions and puts a
 ```text
 * Oct 2026  (HEAD) SDE Intern at MSG91 (Walkover): shipping M91 alerting
 * Aug 2026  AI Engineer Intern at CogKnowEdge: built 7+ RAG systems
-* Jan 2026  Research Assistant at MITS: XGBoost pipeline with R² = 0.96
+* Jan 2026  Research Assistant at MITS: SponsorWise ML pipeline, R² = 0.922
 ```
 
 ## Toolbox
 
-[![Tech stack](https://skillicons.dev/icons?i=py,ts,java,cpp,fastapi,react,postgres,mongodb,sqlite,docker,azure,gcp,git,github&perline=14)](https://skillicons.dev)
+[![Tech stack](https://skillicons.dev/icons?i=py,ts,js,java,cpp,fastapi,nodejs,express,react,postgres,mongodb,sqlite,docker,azure,gcp,git,github&perline=9)](https://skillicons.dev)
 
 **AI and LLMs:** LangChain, LangGraph, RAG, Pinecone, Qdrant, Neo4j, OpenAI / Claude / Gemini APIs
 
-**ML and data:** Scikit-learn, XGBoost, SHAP, Pandas, NumPy, OpenCV, MediaPipe, librosa, Whisper
+**ML and data:** Scikit-learn, XGBoost, Pandas, NumPy, OpenCV, MediaPipe, librosa, Whisper
 
 ## Wins
 
