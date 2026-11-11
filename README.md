@@ -22,17 +22,17 @@ Final-year IT student at MITS Gwalior (CGPA 8.12, graduating May 2027). Open to 
 
 **`git blame` tells you who. This tells you why.**
 
-Point it at a GitHub repo and ask why any code was written. Answers come only from the repo's commits, pull requests and code reviews, and cite every source.
+Point it at a GitHub repo and ask why any code was written. Answers stream in, come only from the repo's commits, pull requests and code reviews, and cite every source.
 
-- Hybrid search across Pinecone and BM25 finds the evidence
-- Bring your own key for 5 LLM providers; new models appear the day they launch
-- Fits in 512 MB by moving embeddings to a hosted model
+- Rebuilt search with rank fusion, so the right commit is in the top 8 for 81–89% of 583 test questions, up from 65–79%
+- “Who broke it?” puts the commit that caused a bug in its top 3 for 57% of 49 real Flask, Click and HTTPX bugs
+- 205 tests in CI, two-step sign-in, and 0 errors at 50 concurrent users
 
-`Python` `FastAPI` `PostgreSQL` `Pinecone` `React` `Docker`
+`Python` `FastAPI` `PostgreSQL` `Pinecone` `React` `Docker` `GitHub Actions`
 
 [Live demo](https://code-archaeologist-a9ms.onrender.com/) · [Source code](https://github.com/RishabhPR77/code-archaeology-rag)
 
-<sub>Free hosting, so the first visit can take about a minute to wake up.</sub>
+<sub>The live demo needs no sign-up. It's on free hosting, so the first visit can take about a minute to wake up.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://tejaskrit-rishabh.koreacentral.cloudapp.azure.com/"><img src="assets/tejaskrit.webp" alt="Tejaskrit landing page" /></a>
@@ -111,7 +111,7 @@ Finds the households about to stop shopping across 2.5M+ transactions and puts a
 
 ## Toolbox
 
-[![Tech stack](https://skillicons.dev/icons?i=py,ts,js,java,cpp,fastapi,nodejs,express,react,postgres,mongodb,sqlite,docker,azure,gcp,git,github&perline=9)](https://skillicons.dev)
+[![Tech stack](https://skillicons.dev/icons?i=py,ts,js,java,cpp,fastapi,nodejs,express,react,postgres,mongodb,sqlite,docker,githubactions,azure,gcp,git,github&perline=9)](https://skillicons.dev)
 
 **AI and LLMs:** LangChain, LangGraph, RAG, Pinecone, Qdrant, Neo4j, OpenAI / Claude / Gemini APIs
 
